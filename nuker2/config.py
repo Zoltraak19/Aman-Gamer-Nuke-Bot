@@ -1,5 +1,5 @@
 # Discord Configuration
-BOT_TOKEN = "OTg1ODI2NTAzNzk3Mzc0OTg2.GxXEI8.VgXm_MJJms5fsMRom1F9cNo-jS3PAUocneEdbc"  # Leave empty if using as self-bot
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Leave empty if using as self-bot
 SELF_BOT_TOKEN = "YOUR_USER_TOKEN_HERE"  # Your user token for self-bot
 SELF_BOT_USER_ID = None  # Will be set automatically
 
