@@ -1,7 +1,8 @@
+import os
+
 # Discord Configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Leave empty if using as self-bot
-SELF_BOT_TOKEN = "YOUR_USER_TOKEN_HERE"  # Your user token for self-bot
-SELF_BOT_USER_ID = None  # Will be set automatically
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+BOT_TAGLINE = "Captain Aizen — Rise above the ordinary."
 
 # Nuke Configuration
 NUKE_MESSAGE = ""
@@ -22,6 +23,5 @@ WEBHOOK_MESSAGE = ""
 WEBHOOK_COUNT_PER_CHANNEL = 50
 
 # Command Configuration
-COMMAND_PREFIX = "!"  # Command prefix for bot mode
-SELF_COMMAND_PREFIX = "."  # Command prefix for self-bot mode
-SILENT_MODE = False  # Default silent mode (can be toggled with !silent or .silent)
+COMMAND_PREFIX = "!"
+SILENT_MODE = False
